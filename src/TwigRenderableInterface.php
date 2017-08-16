@@ -10,7 +10,7 @@ interface TwigRenderableInterface {
      *
      * @return string
      */
-    public function getTemplate();
+    public function getTemplate() : string;
 
     /**
      * Return the render date for the template.
@@ -18,6 +18,6 @@ interface TwigRenderableInterface {
      * @param array $data
      * @return array
      */
-    public function getRenderData(array $data);
+    public function getRenderData(array $data) : array;
 
 }
