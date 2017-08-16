@@ -1,5 +1,5 @@
 {
-  "name": "dtkahl/php-form-builder",
+  "name": "dtkahl/twig-renderable-extension",
   "license": "MIT",
   "require": {
     "php": ">=5.6.0",
