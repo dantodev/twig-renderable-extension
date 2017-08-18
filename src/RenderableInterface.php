@@ -15,9 +15,8 @@ interface RenderableInterface {
     /**
      * Return the render date for the template.
      *
-     * @param array $data
      * @return array
      */
-    public function getRenderData(array $data) : array;
+    public function getRenderData() : array;
 
 }
