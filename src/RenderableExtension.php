@@ -29,7 +29,7 @@ class RenderableExtension extends \Twig_Extension
                         $compiler
                             ->addDebugInfo($this)
                             ->raw("(function (\$renderable) {\n")
-                            ->raw("if (!\$renderable instanceof \Dtkahl\FormBuilder\TwigRenderableInterface) {\n")
+                            ->raw("if (!\$renderable instanceof \Dtkahl\TwigRenderableExtension\RenderableInterface) {\n")
                             ->raw("throw new \InvalidArgumentException(\"Must implement RenderableInterface.\");\n")
                             ->raw("}\n")
                             ->raw("\$this")
