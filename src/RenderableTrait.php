@@ -3,7 +3,7 @@
 trait RenderableTrait {
     protected $template = null;
 
-    public function getTemplate()
+    public function getTemplate() : string
     {
         return $this->template;
     }
