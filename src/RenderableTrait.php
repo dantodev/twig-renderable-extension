@@ -3,16 +3,21 @@
 trait RenderableTrait {
     protected $template = null;
 
+    public function setTemplate(string $template) : void
+    {
+        $this->template = $template;
+    }
+
     public function getTemplate() : string
     {
         return $this->template;
     }
 
-    public function getRenderData(array $data) : array
+    public function getRenderData() : array
     {
-        return array_merge($data, [
+        return [
             "object" => $this,
-        ]);
+        ];
     }
 
 }
