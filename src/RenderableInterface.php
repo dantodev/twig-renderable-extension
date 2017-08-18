@@ -1,9 +1,9 @@
-<?php namespace Dtkahl\FormBuilder;
+<?php namespace Dtkahl\TwigRenderableExtension;
 
 /**
  * A class which implement this interface can be passed into render function from TwigRenderableExtension
  */
-interface TwigRenderableInterface {
+interface RenderableInterface {
 
     /**
      * Return the path to template file.

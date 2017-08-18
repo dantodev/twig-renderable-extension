@@ -1,8 +1,8 @@
-<?php namespace Dtkahl\FormBuilder;
+<?php namespace Dtkahl\TwigRenderableExtension;
 
 use Twig_Token;
 
-class TwigRenderableExtension extends \Twig_Extension
+class RenderableExtension extends \Twig_Extension
 {
 
     public function getName()
